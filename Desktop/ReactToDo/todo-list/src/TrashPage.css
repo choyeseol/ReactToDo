@@ -1,0 +1,66 @@
+.trash-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 500px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.trash-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trash-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.trash-list li span {
+  flex: 1;
+  text-align: left;
+}
+
+.trash-list button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trash-list button:last-child {
+  background: red;
+}
+
+.back-layout {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
